@@ -1,0 +1,23 @@
+{
+  "name": "cooking-with-ingredients",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/**/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "benchmark": "^2.1.4",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^7.1.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "sinon": "^9.0.2",
+    "tap": "^14.10.7",
+    "tape": "^4.13.2"
+  }
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Dishdelice | Recipe Website</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Playfair+Display:wght@900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./mainstyles.css" />
+</head>
+
+
+<body>
+  <header>
+    <div class="nav-bar">
+      <div class="nav-media-icons">
+        <a href='#' class="homepage-icons"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href='#' class="homepage-icons"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href='#' class="homepage-icons"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+      </div>
+      <div class="nav-title">
+        <a href="./index.html">dishdelice</a>
+      </div>
+      <div class="nav-search">
+        <form method="GET" id='home-nav-search-form' action="results.html">
+          <div class="nav-search">
+            <input type="text" placeholder="Search..." autocomplete="off" id='home-nav-search-bar'>
+            <button type="submit" id="nav-search-button"><i class="fa fa-search"></i></button>
+
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="main-content">
+      <h1 class="main-heading">Find a Recipe</h1>
+      <div class="wrapper">
+        <div class="search-bar">
+          <form method='GET' id='home-main-search-form' action="results.html">
+
+            <input id="main-search-bar" type="text" autocomplete="off" />
+            <button type='sumbit' id="main-search-button"><i class="fa fa-search"></i></button>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="./scripts.js"></script>
+</body>
+
+</html>

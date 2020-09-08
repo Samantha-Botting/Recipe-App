@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Dishdelice | Recipe Website</title>
+  <script src="https://kit.fontawesome.com/14004334d1.js" crossorigin="anonymous"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Source+Serif+Pro&family=Playfair+Display:wght@900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="resultspage.css" />
+</head>
+
+<body onload="loadResultsPage()">
+  <header>
+    <div class="nav-bar">
+      <div class="nav-title-div">
+        <a class="nav-title" href="./index.html">dishdelice</a>
+      </div>
+      <form method="GET" onsubmit='resultsSearchBar()'>
+        <div class="nav-search">
+          <input type="text" placeholder="" id="nav-search-bar" autocomplete="off" />
+          <button type='sumbit' id="nav-search-button"><i class="fa fa-search"></i></button>
+        </div>
+      </form>
+      <div class="media-icons">
+        <p>follow</p>
+        <a href="#" class="nav-icons"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="#" class="nav-icons"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="#" class="nav-icons"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="sub-heading"></div>
+    <div id="results"></div>
+  </main>
+  <footer>
+    <div class="footer-div">
+      <div class="footer-text">
+        <a href="index.html">
+          <h2>dishdelice</h2>
+        </a>
+        <p>find the perfect recipe</p>
+        <p>Designed by <strong>Samantha Botting</strong></p>
+      </div>
+      <div>
+        <a href="#" class="footer-icons"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="#" class="footer-icons"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="#" class="footer-icons"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+        <a href="#" class="footer-icons"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+        <a href="#" class="footer-icons"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </footer>
+  <script src="./scripts.js"></script>
+</body>
+
+</html>
